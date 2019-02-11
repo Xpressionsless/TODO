@@ -1,0 +1,20 @@
+#todo-items li {
+    list-style-type: none;
+}
+#todo-items #label {
+    margin-right: 10px;
+    color: red;
+}
+#todo-items #remove {
+    color: red;
+    position: relative; 
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    float: right;
+    background: transparent;
+    padding: 0 5px;
+}
+#todo-items #remove:hover {
+    background: rgb(132, 209, 228)
+}
