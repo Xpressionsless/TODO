@@ -5,7 +5,7 @@
     margin-right: 10px;
     color: red;
 }
-#todo-items #remove {
+#todo-items .remove {
     color: red;
     position: relative; 
     cursor: pointer;
@@ -17,4 +17,7 @@
 }
 #todo-items #remove:hover {
     background: rgb(132, 209, 228)
+}
+.completed {
+    text-decoration: line-through 
 }
